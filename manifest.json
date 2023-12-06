@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "URL Validator",
-    "description": "Provides tools for pruning dead bookmark links and validating URLS",
+    "description": "Provides tools for pruning dead bookmark links and validating URLS.",
     "version": "1.0",
     "icons": {
       "16": "images/URL-Validator-Icon-16.png",
@@ -12,7 +12,8 @@
     "content_scripts": [
       {
         "js": [
-          "scripts/validate.js"
+          "scripts/validate.js",
+          "scripts/content.js"
         ],
         "matches": [
           "<all_urls>"
